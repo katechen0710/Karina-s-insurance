@@ -9,10 +9,7 @@ st.markdown("""
 <p style='text-align: center;'>上傳你的保險合約，快速找出關鍵條款</p>
 """, unsafe_allow_html=True)
 
-# 狗狗圖片（白色狗）
-st.image("https://images.unsplash.com/photo-1558788353-f76d92427f16", use_container_width=True)
 
-st.divider()
 
 # Upload PDF file
 uploaded_file = st.file_uploader("📄 Upload your contract (PDF only)", type=["pdf"])
